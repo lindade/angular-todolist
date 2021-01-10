@@ -32,6 +32,7 @@
             ],
             "styles": [
               "src/styles.scss"
+              // here its possible to import bootstrap or font-awesome
             ],
             "scripts": []
           },
