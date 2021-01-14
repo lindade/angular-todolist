@@ -24,4 +24,12 @@ export class TodoItemComponent implements OnInit {
     return classes;
   }
 
+  // change text styling depending on the checkbox state
+  onToggle(todo) {
+    todo.completed = !todo.completed;
+  }
+  onDelete(todo) {
+    console.log('delete');
+  }
+
 }
