@@ -10,10 +10,5 @@ export class AppComponent {
   name: string = 'Linda';
 
   constructor() {
-    this.changeName('John')
-  }
-
-  changeName(name: string): void {
-    this.name = name;
   }
 }
